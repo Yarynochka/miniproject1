@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.container{
+    font-size: 25px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 20px;
+
+}
+.commentsDiv{
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.commentDiv{
+    width: 19%;
+    box-sizing: border-box;
+    border: 1px solid mediumvioletred;
+    margin: 5px;
+    padding: 0 5px;
+
+    font-size: 25px;
+}

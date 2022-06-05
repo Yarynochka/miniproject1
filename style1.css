@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+#wrap{
+width: 100%;
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background: linen;
+}
+
+.title{
+    width: 95%;
+    height: 100px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.users{
+    width: 45%;
+    box-sizing: border-box;
+    border: 1px solid darkblue;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn{
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: lightcoral;
+    color: #fff;
+}
+
+h2{
+    margin: 0;
+    font-size: 25px;
+
+}
+
+p{
+    padding: 0;
+    font-size: 25px;
+}
+
